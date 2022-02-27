@@ -1,0 +1,19 @@
+/* SideBar */
+
+.page-wrapper .page-body-wrapper.sidebar-icon .page-sidebar .sidebar-menu{
+    padding: 0px;
+}
+
+.page-wrapper .page-body-wrapper.sidebar-icon .page-sidebar .sidebar-menu .sidebar-header {
+    margin-top: 0px;
+    position: relative;
+}
+
+/* Header */
+.heading{
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: rgb(51, 74, 136);
+
+    
+}

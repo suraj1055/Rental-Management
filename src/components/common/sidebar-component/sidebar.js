@@ -4,6 +4,7 @@ import { MENUITEMS } from '../../../components/common/sidebar-component/menu';
 import { Link } from 'react-router-dom';
 import { translate } from 'react-switch-lang';
 import configDB from '../../../data/customizer/config';
+import '../../App.css'
 
 const Sidebar = (props) => {
     const [margin, setMargin] = useState(0);
@@ -176,7 +177,7 @@ const Sidebar = (props) => {
     return (
         <Fragment>
             <div className="page-sidebar">
-                <div>
+                <div className="logo">
                     <img className="blur-up lazyloaded" src={require('../../../assets/images/Superman_Logo.png')} alt="SuperMan" height={100} width={150} />
                 </div>
                 <div className="sidebar custom-scrollbar">

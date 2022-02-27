@@ -1,6 +1,5 @@
 import React, { useState, Fragment } from 'react'
 import { AlignLeft } from 'react-feather';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -22,18 +21,16 @@ const Header = () => {
       <div className="page-main-header" >
         <div className="main-header-right row">
           <div className="mobile-sidebar d-block">
-            <div className="media-body text-right switch-sm d-flex justify-content-between">
+            <div className="media-body text-right switch-sm d-flex justify-content-around">
               <div>
                 <label className="switch mt-2">
                   <a href="#master" onClick={() => openCloseSidebar()}>
-                    <AlignLeft className="mt-2"/>
+                    <AlignLeft className="mt-2" />
                   </a>
                 </label>
               </div>
-              <div className='mt-2 pl-4'>
-                <Link>
-                  <h3> Rental Management System </h3>
-                </Link>
+              <div className='heading mt-2 pl-4'>
+                <span> Rental Management System </span>
               </div>
             </div>
           </div>

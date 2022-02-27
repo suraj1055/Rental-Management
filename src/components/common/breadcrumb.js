@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { Home } from 'react-feather';
 import { Link } from 'react-router-dom'
-import Bookmark from './bookmark';
 
 const Breadcrumb = props => {
     const breadcrumb = props;
@@ -25,9 +24,6 @@ const Breadcrumb = props => {
                                 </ol>
                             </div>
                         </div>
-                        {/* <!-- Bookmark Start--> */}
-                        <Bookmark />
-                        {/* <!-- Bookmark Ends--> */}
                     </div>
                 </div>
             </div>
